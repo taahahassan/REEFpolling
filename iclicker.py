@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
 import time
 
-driver = webdriver.Chrome(r"C:\Users\mtaah\Downloads\Python\Selenium\chromedriver")#delete and add your personal path to chromedriver 
+driver = webdriver.Chrome(r"")#add your personal path to chromedriver 
 
 driver.get('https://app.reef-education.com/#/login')
 
