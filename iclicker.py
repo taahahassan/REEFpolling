@@ -23,7 +23,7 @@ login_box = driver.find_element_by_id("sign-in-button")
 login_box.click()
 
 time.sleep(1)
-chem = WebDriverWait(driver, 3600).until(ec.visibility_of_element_located((By.XPATH,"//*[contains(text(),'Chem 1AA3 - Moran-Mirabal (C01)')]" )));
+chem = WebDriverWait(driver, 3600).until(ec.visibility_of_element_located((By.XPATH,"//*[contains(text(),'Chem 1AA3 - Moran-Mirabal (C01)')]" ))); #delete and add XPATH to your own class
 chem.click()
 join = WebDriverWait(driver, 3600).until(ec.visibility_of_element_located((By.XPATH, "/html/body/div/div[2]/div/div/div/div[2]/div[1]/course-screen-join-session/div/div/div/div[2]/button")));
 join.click()
